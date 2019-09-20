@@ -4,10 +4,11 @@ import './src/StyleTextIcon.dart' as style;
 import './src/AppBar.dart' as appBar;
 import './src/LayoutRowAndColumn.dart' as layout;
 import './src/CardAndParsing.dart' as card;
+import './src/Navigation.dart' as nav;
 
 void main() {
   runApp(new MaterialApp(
-    title: 'Card and Parsing',
-    home: card.CardAndParsing(),
+    title: 'Navigation',
+    home: nav.Navigation(),
   ));
 }
