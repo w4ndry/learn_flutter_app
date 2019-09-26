@@ -5,10 +5,11 @@ import './src/AppBar.dart' as appBar;
 import './src/LayoutRowAndColumn.dart' as layout;
 import './src/CardAndParsing.dart' as card;
 import './src/Navigation.dart' as nav;
+import './src/TabBar.dart' as tab;
 
 void main() {
   runApp(new MaterialApp(
-    title: 'Navigation',
-    home: nav.Navigation(),
+    title: 'Tab Bar',
+    home: tab.TabBarApp(),
   ));
 }
