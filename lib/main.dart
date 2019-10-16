@@ -8,10 +8,11 @@ import './src/Navigation.dart' as nav;
 import './src/TabBar.dart' as tab;
 import './src/Listview.dart' as list;
 import './src/LisviewLocalData.dart' as listView;
+import './src/ListviewJson.dart' as json;
 
 void main() {
   runApp(new MaterialApp(
     title: 'List View JSON',
-    home: listView.LisviewLocalDataPage(data: new List<String>.generate(300, (i) => "ini data ke $i")),
+    home: json.ListviewJsonPage(),
   ));
 }
