@@ -15,6 +15,6 @@ import './src/Drawer.dart' as drawer;
 void main() {
   runApp(new MaterialApp(
     title: 'List View JSON',
-    home: input.InputText(),
+    home: drawer.DrawerPage(),
   ));
 }
